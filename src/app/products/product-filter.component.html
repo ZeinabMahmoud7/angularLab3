@@ -1,0 +1,5 @@
+<input type="text" placeholder="Search product..." [(ngModel)]="searchTerm" (input)="onSearch()" />
+<button (click)="filterByCategory('All')">All</button>
+<button (click)="filterByCategory('Mouse')">Mouse</button>
+<button (click)="filterByCategory('Laptop')">Laptop</button>
+<button (click)="filterByCategory('Keyboard')">Keyboard</button>
